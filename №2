@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	double d, pi = 3.14;
+	cout << "Enter diameter: " << endl;
+	cin >> d;
+	cout << "L= " << pi * d;
+	return 0;
+
+}
