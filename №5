@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	double a, b;
+	cout << "Enter first and second num: " << endl;
+	cin >> a >> b;
+	if (a != 0 && b != 0)
+	{
+		cout << "sum = " <<abs(a) + abs(b) << endl;
+		cout << "difference = " << abs(a) - abs(b) << endl;
+		cout << "product = " << abs(a) * abs(b) << endl;
+		cout << "quotient = " << abs(a) / abs(b) << endl;
+	}
+	else {
+		cout << "incorrect data entered!" << endl;
+	}
+	return 0;
+
+}
+
